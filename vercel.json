@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/preprocess.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/preprocess",
+      "dest": "api/preprocess.py"
+    }
+  ]
+}
